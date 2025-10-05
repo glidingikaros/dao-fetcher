@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.venv/
+*.egg-info/
+.eggs/
+build/
+dist/
+*.log
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Parquet and data outputs
+catalogue/**.parquet
+catalogue/**/
+
+# Local data directory outputs
+data/**
+
+# VSCode/Cursor
+.vscode/
+.idea/
+*.code-workspace
+
